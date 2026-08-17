@@ -1,0 +1,24 @@
+# Compiled binaries
+Server/server
+Client1/client
+Client2/client
+Client3/client
+Test Client/client
+*.o
+*.out
+*.exe
+
+# Runtime data, metadata and client caches
+**/_cache_/*
+!**/_cache_/.gitkeep
+Server/_data_/*
+!Server/_data_/.gitkeep
+Server/_metadata_/*
+!Server/_metadata_/.gitkeep
+
+# Editor / OS artifacts
+.vscode/
+*.swp
+*~
+.DS_Store
+*Zone.Identifier
